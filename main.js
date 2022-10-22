@@ -34,7 +34,7 @@ function gotResult(error, results) {
 function draw() {
   image(img, 0, 0, 640, 420);
 
-      if(tatus != "")
+      if(Status != "")
       {
         for (var i = 0; i < objects.length; i++) {
           document.getElementById("status").innerHTML = "Status : Object Detected";
